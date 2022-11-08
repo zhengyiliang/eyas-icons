@@ -1,0 +1,28 @@
+{
+  "name": "@eyas-design/icons",
+  "private": true,
+  "version": "1.0.0",
+  "main": "./index.js",
+  "module": "./index.es.js",
+  "types": "./index.d.ts",
+  "author": "zhengyiliang",
+  "license": "MIT",
+  "scripts": {
+    "icon": "rimraf react-icon/ && rimraf react-icon-cjs && cd build/ && node generate.js"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "lodash": "^4.17.21"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "nunjucks": "^3.2.2",
+    "rimraf": "^3.0.2",
+    "svgo": "^2.3.0"
+  }
+}
