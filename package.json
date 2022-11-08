@@ -1,6 +1,6 @@
 {
   "name": "@eyas-design/icons",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "description": "eyas design icons.",
   "main": "./index.js",
