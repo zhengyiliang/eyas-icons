@@ -2,6 +2,7 @@
   "name": "@eyas-design/icons",
   "private": true,
   "version": "1.0.0",
+  "description": "eyas design icons.",
   "main": "./index.js",
   "module": "./index.es.js",
   "types": "./index.d.ts",
@@ -14,6 +15,10 @@
     "react": ">=16",
     "react-dom": ">=16"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhengyiliang/eyas-icons"
+  },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
     "lodash": "^4.17.21"
@@ -24,5 +29,14 @@
     "nunjucks": "^3.2.2",
     "rimraf": "^3.0.2",
     "svgo": "^2.3.0"
-  }
+  },
+  "files": [
+    "react-icon",
+    "react-icon-cjs",
+    "index.js",
+    "index.es.js",
+    "index.d.ts",
+    "icons.json",
+    "package.json"
+  ]
 }
